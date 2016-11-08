@@ -28,6 +28,6 @@ public class Main {
 		preparedStatement.execute();
 		preparedStatement = (PreparedStatement) connection.prepareStatement("insert into cherman (name,name_company,job_title,money) values ('John','TBM','Manager',400),('Anna','Oracle','hr',450)");
 		preparedStatement.execute();
+		System.out.println("To Git");
 	}
-
 }
